@@ -6,4 +6,7 @@ git checkout -b feature-y origin/feature-y
 git branch -vv
 可以查看是否链接成功
 实现改写分支内容并提交
+用
+git push origin HEAD:feature-y
 提交到远程仓库后就能改变远程追踪分支的内容
+
