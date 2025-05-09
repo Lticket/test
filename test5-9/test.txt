@@ -2,5 +2,8 @@
 通过
 git checkout -b feature-y origin/feature-y
 来获取远程追踪分支的内容
+用
+git branch -vv
+可以查看是否链接成功
 实现改写分支内容并提交
 提交到远程仓库后就能改变远程追踪分支的内容
